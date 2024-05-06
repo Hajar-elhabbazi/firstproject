@@ -1,0 +1,110 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "PFont";
+    
+}
+
+p {
+    color: hsl(30, 10%, 34%);
+    font-size: 14px;
+}
+
+.whiteb {
+    background-color: hsl(0, 0%, 100%);
+    padding: 60px;
+    border-radius: 20px;
+    max-width: 600px;
+}
+
+img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.prep {
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px;
+    border-radius: 20px;
+    ul {
+        color: hsl(332, 51%, 32%);
+        p {
+            color: hsl(30, 10%, 34%);
+            margin-left: 20px;
+    }
+        
+    }
+}
+
+.ing {
+    ul {
+        color: hsl(14, 45%, 36%);
+        p {
+            color: hsl(30, 10%, 34%);
+            margin-left: 20px;
+    }
+    }
+}
+
+.Ins {
+    ol {
+        color: hsl(14, 45%, 36%);
+        
+        p {
+                color: hsl(30, 10%, 34%);
+                margin-left: 20px;
+        }
+    }
+}
+
+
+@font-face {
+    font-family: "MyFont";
+    src: url("YoungSerif-Regular.ttf");
+}
+
+@font-face {
+    font-family: "PFont";
+    src: url("Outfit-VariableFont_wght.ttf");
+}
+
+h1 {
+    font-family: "MyFont", sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+h2 {
+    font-family: "MyFont", sans-serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    margin: 10px;
+}
+
+table {
+   border-collapse: collapse;
+   width: 100%;
+   td {
+    color: hsl(14, 45%, 36%);
+    
+  }
+}
+
+th, td {
+    padding: 10spx;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: hsl(30, 10%, 34%);
+  }
+
+
+
